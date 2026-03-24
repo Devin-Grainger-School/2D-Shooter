@@ -10,8 +10,9 @@ public class SluggerDetectCollisions : MonoBehaviour
         if (other.CompareTag(TagtoDestroy))
         {
             Destroy(other.gameObject);
+            
         }
-        else
+        if (other.CompareTag("Respawn"))
         {
             Destroy(gameObject);
         }

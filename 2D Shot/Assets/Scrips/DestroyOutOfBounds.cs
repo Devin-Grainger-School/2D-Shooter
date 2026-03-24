@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class DestroyOutOfBounds : MonoBehaviour
 {
-    private float topBound = 35;
-    private float lowerBound = -35;
+    private float topBound = 18;
+    private float lowerBound = -18;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

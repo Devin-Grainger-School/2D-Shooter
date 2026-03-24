@@ -4,6 +4,9 @@ using UnityEngine;
 public class SluggerCharge : MonoBehaviour
 {
     public int Slugger;
+    public int Fragment;
+    public int Axe;
+    public int BOMBS;
     public GameObject[] SluggerPrefabs;
     public GameObject UpSlugger;
     public GameObject DownSlugger;
@@ -24,11 +27,15 @@ public class SluggerCharge : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Memory
+        if (Slugger <= 3)
+        {
+
+            //Memory
             if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.I))
             {
                 // Launch a projectile from the player up
                 Instantiate(UpSlugger, transform.position, UpSlugger.transform.rotation);
+                Slugger++;
             }
             if (Input.GetKeyDown(KeyCode.V) || Input.GetKeyDown(KeyCode.K))
             {
@@ -45,11 +52,18 @@ public class SluggerCharge : MonoBehaviour
                 // Launch a projectile from the player Right
                 Instantiate(RightSlugger, transform.position, RightSlugger.transform.rotation);
             }
+        }
+        if (Fragment <= 3)
+        {
             if (Input.GetKeyDown(KeyCode.Z))
             {
                 // Drops a Page
                 Instantiate(Page, transform.position, Page.transform.rotation);
             }
+        }
+
+        if (Axe <= 1)
+        {
             //Clark
             if (Input.GetKeyDown(KeyCode.Alpha8) || Input.GetKeyDown(KeyCode.Keypad8))
             {
@@ -71,11 +85,13 @@ public class SluggerCharge : MonoBehaviour
                 // Launch a projectile from the player Right
                 Instantiate(AxeRight, transform.position, AxeRight.transform.rotation);
             }
+        }
+        if (BOMBS <= 4) {
             if (Input.GetKeyDown(KeyCode.Alpha7) || Input.GetKeyDown(KeyCode.Keypad7))
             {
                 // Drops a Page
                 Instantiate(Bomb, transform.position, Bomb.transform.rotation);
             }
         }
-
+    }
 }
