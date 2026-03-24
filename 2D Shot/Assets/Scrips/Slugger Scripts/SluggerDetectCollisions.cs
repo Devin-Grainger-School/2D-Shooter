@@ -3,6 +3,7 @@ using UnityEngine;
 public class SluggerDetectCollisions : MonoBehaviour
 {
     public string TagtoDestroy;
+    private GameManager SluggerCharge;
     //Destory Monsters on Collision
     void OnTriggerEnter(Collider other)
     {
