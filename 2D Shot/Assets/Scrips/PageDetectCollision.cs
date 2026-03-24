@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class PageDetectCollision : MonoBehaviour
 {
-    public GameObject objectToDestroy;
+    public string TagtoDestory;
     // Destory's Monster and Page
     void OnTriggerEnter(Collider other)
     {
-        if (objectToDestroy != null)
+        if (other.CompareTag(TagtoDestory))
         {
             Destroy(other.gameObject);
             Destroy(gameObject);

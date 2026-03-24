@@ -51,6 +51,11 @@ MonoBehaviour:
   LeftSlugger: {fileID: 3903331117483830025, guid: 7209b42ec31ff1b438611ca62755aa07, type: 3}
   RightSlugger: {fileID: 3903331117483830025, guid: 7d40044c58354a742afcbd011377cb40, type: 3}
   Page: {fileID: 3903331117483830025, guid: cd14e3ffc43957a49b02fa56bc21abad, type: 3}
+  AxeUp: {fileID: 0}
+  AxeDown: {fileID: 0}
+  AxeLeft: {fileID: 0}
+  AxeRight: {fileID: 0}
+  Bomb: {fileID: 0}
 --- !u!1 &2558304247038277629
 GameObject:
   m_ObjectHideFlags: 0
@@ -66,7 +71,7 @@ GameObject:
   - component: {fileID: 7354441619299092730}
   - component: {fileID: 547020373936708366}
   m_Layer: 0
-  m_Name: Player Memory
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,7 +87,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.4}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1331880171511270949}
@@ -131,7 +136,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 9
   m_Sprite: {fileID: -5395559682132089188, guid: e799c3b50ae21ff42bcc5c52ce3c0461, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -155,6 +160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b76db1a6e7d63440ac713be5ca36511, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UP: 0
+  Xaxis: Horizontal
+  Yaxis: Vertical
   horizontalInput: 0
   verticalInput: 0
   speed: 15
@@ -185,7 +193,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 120
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &7354441619299092730
 BoxCollider:
@@ -206,8 +214,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.9028587, y: 7.96, z: 0.2}
-  m_Center: {x: -0.024825633, y: 0, z: 0}
+  m_Size: {x: 6.17, y: 7.96, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &547020373936708366
 MonoBehaviour:
   m_ObjectHideFlags: 0

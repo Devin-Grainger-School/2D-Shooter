@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MoveRight : MonoBehaviour
 {
-    public float speed = 40.0f;
+    public float speed = 20.0f;
     // Moves slugger right
     void Update()
     {

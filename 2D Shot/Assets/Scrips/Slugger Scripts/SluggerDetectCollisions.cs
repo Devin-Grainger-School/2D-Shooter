@@ -2,14 +2,18 @@ using UnityEngine;
 
 public class SluggerDetectCollisions : MonoBehaviour
 {
+    public string TagtoDestroy;
     //Destory Monsters on Collision
     void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
         // Check if the object the projectile collided with has the "Enemy" tag
-        if (other.gameObject == GameObject.FindGameObjectWithTag("Respawn"))
+        if (other.CompareTag(TagtoDestroy))
         {
-            Destroy(GameObject.Find("Monster(Clone)"));
+            Destroy(other.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
         }
 
     }
