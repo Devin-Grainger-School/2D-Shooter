@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         // Horizontal Movement Buttons for the Player
         horizontalInput = Input.GetAxis("Horizontal");
         // Horizontal Movement for the Player
