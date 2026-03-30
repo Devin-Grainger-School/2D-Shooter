@@ -15,7 +15,7 @@ public class SluggerDetectCollisions : MonoBehaviour
         }
         if (other.CompareTag("Respawn"))
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
 
     }
