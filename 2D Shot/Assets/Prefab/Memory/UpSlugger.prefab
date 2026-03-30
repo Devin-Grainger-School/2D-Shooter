@@ -13,10 +13,11 @@ GameObject:
   - component: {fileID: 2759803371393715897}
   - component: {fileID: 3595603081251147797}
   - component: {fileID: 4172585963446811281}
-  - component: {fileID: 2835112773466958467}
+  - component: {fileID: 9107272259359531569}
+  - component: {fileID: 8102123720519860059}
   m_Layer: 0
   m_Name: UpSlugger
-  m_TagString: Finish
+  m_TagString: Slugger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 3903331117483830025}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.61, y: -0.4286358, z: 6.692362}
+  m_LocalPosition: {x: 3.46729, y: -1.228037, z: 6.692362}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -111,7 +112,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
---- !u!114 &2835112773466958467
+--- !u!114 &9107272259359531569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3903331117483830025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f44874512272e64c93513181601becc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TagtoDestroy: 
+--- !u!114 &8102123720519860059
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,6 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454eb6cb83f24534b9a4b288ea943d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SluggerCharge: {fileID: 0}
 --- !u!1 &6146588363010989730
 GameObject:
   m_ObjectHideFlags: 0

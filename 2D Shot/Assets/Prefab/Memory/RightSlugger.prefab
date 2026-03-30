@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2759803371393715897}
   - component: {fileID: 3595603081251147797}
   - component: {fileID: 5648805590836242858}
-  - component: {fileID: 9145807550896507380}
+  - component: {fileID: 2236013952156134927}
   m_Layer: 0
   m_Name: RightSlugger
   m_TagString: Finish
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
---- !u!114 &9145807550896507380
+--- !u!114 &2236013952156134927
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,9 +120,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 3903331117483830025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 454eb6cb83f24534b9a4b288ea943d72, type: 3}
+  m_Script: {fileID: 11500000, guid: 534e96bdd8a88da4eb525debb9299783, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Slugger: 0
+  Fragment: 0
+  Axe: 0
+  BOMBS: 0
+  SluggerPrefabs: []
+  UpSlugger: {fileID: 0}
+  DownSlugger: {fileID: 0}
+  LeftSlugger: {fileID: 0}
+  RightSlugger: {fileID: 0}
+  Page: {fileID: 0}
+  AxeUp: {fileID: 0}
+  AxeDown: {fileID: 0}
+  AxeLeft: {fileID: 0}
+  AxeRight: {fileID: 0}
+  Bomb: {fileID: 0}
+  TagtoDestroy: Clark
 --- !u!1 &6146588363010989730
 GameObject:
   m_ObjectHideFlags: 0

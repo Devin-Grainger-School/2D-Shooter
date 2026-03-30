@@ -18,6 +18,8 @@ public class SluggerCharge : MonoBehaviour
     public GameObject AxeLeft;
     public GameObject AxeRight;
     public GameObject Bomb;
+    private float topBound = 18;
+    private float lowerBound = -18;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

@@ -4,6 +4,7 @@ public class DestroyOutOfBounds : MonoBehaviour
 {
     private float topBound = 18;
     private float lowerBound = -18;
+    public SluggerCharge SluggerCharge;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,6 +17,7 @@ public class DestroyOutOfBounds : MonoBehaviour
         if (transform.position.y > topBound)
         {
             Destroy(gameObject);
+            SluggerCharge.Slugger--;
         }
         else if (transform.position.y < lowerBound)
         {
