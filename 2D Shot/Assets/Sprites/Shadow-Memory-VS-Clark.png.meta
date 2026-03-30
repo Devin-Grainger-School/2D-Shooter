@@ -1,10 +1,61 @@
 fileFormatVersion: 2
-guid: a808ae55fdb44de4f872499f439f2f9b
+guid: d2ceb415fdac2ea4cbabf72af176b4f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7471267473128066091
-    second: Shadow-Memory-Defence_0
+      213: -3359674071097148636
+    second: Shadow-Memory-VS-Clark_0
+  - first:
+      213: 8365090120575797343
+    second: Shadow-Memory-VS-Clark_1
+  - first:
+      213: -247617171742024571
+    second: Shadow-Memory-VS-Clark_2
+  - first:
+      213: -8446039313681062379
+    second: Shadow-Memory-VS-Clark_3
+  - first:
+      213: -7892734856242194331
+    second: Shadow-Memory-VS-Clark_4
+  - first:
+      213: -3088909020115585677
+    second: Shadow-Memory-VS-Clark_5
+  - first:
+      213: 8776563793719094865
+    second: Shadow-Memory-VS-Clark_6
+  - first:
+      213: 7041409121179911674
+    second: Shadow-Memory-VS-Clark_7
+  - first:
+      213: 3338238732110427274
+    second: Shadow-Memory-VS-Clark_8
+  - first:
+      213: 252237722715248467
+    second: Shadow-Memory-VS-Clark_9
+  - first:
+      213: 4346864901691905765
+    second: Shadow-Memory-VS-Clark_10
+  - first:
+      213: -5689141744153067917
+    second: Shadow-Memory-VS-Clark_11
+  - first:
+      213: -2503764077169315532
+    second: Shadow-Memory-VS-Clark_12
+  - first:
+      213: -3887904651219185378
+    second: Shadow-Memory-VS-Clark_13
+  - first:
+      213: -2586921979979549340
+    second: Shadow-Memory-VS-Clark_14
+  - first:
+      213: 3226239430334488900
+    second: Shadow-Memory-VS-Clark_15
+  - first:
+      213: -4409508397059281547
+    second: Shadow-Memory-VS-Clark_16
+  - first:
+      213: 2093427295476840758
+    second: Shadow-Memory-VS-Clark_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -152,13 +203,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shadow-Memory-Defence_0
+      name: Shadow-Memory-VS-Clark_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2370
-        height: 1024
+        width: 3746
+        height: 1014
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +218,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2c8abdae264fa760800000000000000
-      internalID: 7471267473128066091
+      spriteID: 42bf92f8b3a0061d0800000000000000
+      internalID: -3359674071097148636
       vertices: []
       indices: 
       edges: []
@@ -177,7 +228,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 751dfc055004f1b4dad7b5462b9261fe
     internalID: 0
     vertices: []
     indices: 
@@ -187,7 +238,27 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Shadow-Memory-Defence_0: 7471267473128066091
+      Shadow-Memory-VS-Clark_0: -3359674071097148636
+      Shadow-Memory-VS-Clark_1: 8365090120575797343
+      Shadow-Memory-VS-Clark_10: 4346864901691905765
+      Shadow-Memory-VS-Clark_11: -5689141744153067917
+      Shadow-Memory-VS-Clark_12: -2503764077169315532
+      Shadow-Memory-VS-Clark_13: -3887904651219185378
+      Shadow-Memory-VS-Clark_14: -2586921979979549340
+      Shadow-Memory-VS-Clark_15: 3226239430334488900
+      Shadow-Memory-VS-Clark_16: -4409508397059281547
+      Shadow-Memory-VS-Clark_17: 2093427295476840758
+      Shadow-Memory-VS-Clark_18: -1988419322
+      Shadow-Memory-VS-Clark_19: 579121025
+      Shadow-Memory-VS-Clark_2: -247617171742024571
+      Shadow-Memory-VS-Clark_20: -391969587
+      Shadow-Memory-VS-Clark_3: -8446039313681062379
+      Shadow-Memory-VS-Clark_4: -7892734856242194331
+      Shadow-Memory-VS-Clark_5: -3088909020115585677
+      Shadow-Memory-VS-Clark_6: 8776563793719094865
+      Shadow-Memory-VS-Clark_7: 7041409121179911674
+      Shadow-Memory-VS-Clark_8: 3338238732110427274
+      Shadow-Memory-VS-Clark_9: 252237722715248467
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

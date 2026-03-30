@@ -684,11 +684,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.957718, y: 0.6643921, z: 0.9999998}
-  m_Center: {x: 0.0066724694, y: -0.026514933, z: 0}
+  m_Size: {x: 1.0000001, y: 1, z: 0.99999994}
+  m_Center: {x: -0.000000059604645, y: 0.0000009536743, z: 0}
 --- !u!23 &811582390
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -848,11 +848,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.99024755, y: 0.61849475, z: 0.9999998}
-  m_Center: {x: -0.004876251, y: -0.06358358, z: 0}
+  m_Size: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+  m_Center: {x: 0.000000059604645, y: 0.0000009536743, z: 0}
 --- !u!23 &907539345
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1096,11 +1096,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.9518257, y: 0.65953743, z: 0.9999998}
-  m_Center: {x: 0.0021835894, y: 0.017359702, z: 0}
+  m_Size: {x: 1.0000001, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: -0.0000009536743, z: 0}
 --- !u!23 &1768410937
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1211,6 +1211,14 @@ PrefabInstance:
       propertyPath: AxeThrow
       value: 
       objectReference: {fileID: 1918138608}
+    - target: {fileID: 5914485015123212692, guid: 63a23b9b3fd82934abe744aa495891ec, type: 3}
+      propertyPath: m_Center.x
+      value: -9.313226e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5914485015123212692, guid: 63a23b9b3fd82934abe744aa495891ec, type: 3}
+      propertyPath: m_Center.y
+      value: 0.0000019073486
+      objectReference: {fileID: 0}
     - target: {fileID: 6623507685267479756, guid: 63a23b9b3fd82934abe744aa495891ec, type: 3}
       propertyPath: m_LocalScale.x
       value: 41.919994
@@ -1310,6 +1318,52 @@ MonoBehaviour:
   AxeLeft: {fileID: 7877908069846013330, guid: 81c92e7fbf164944ca767783ffaf06bd, type: 3}
   AxeRight: {fileID: 7899498157368609828, guid: 371f24b64e8bbe546aa3f1e10c2a1bc7, type: 3}
   Bomb: {fileID: 2288087778733853524, guid: 36754554c455509488dc3f8e1cce06d5, type: 3}
+  cooldownCounter: 0
+  cooldownMaxTime: 0.5
+--- !u!1 &2012591349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2012591351}
+  - component: {fileID: 2012591350}
+  m_Layer: 0
+  m_Name: Start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2012591350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012591349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8cfcb224fe43424c9528968aa6a2ba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2012591351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012591349}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2046053263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1456,11 +1510,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.9304218, y: 0.47009894, z: 0.9999998}
-  m_Center: {x: -0.0016566996, y: -0.06623741, z: 0}
+  m_Size: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+  m_Center: {x: 0, y: -0.0000019073486, z: 0}
 --- !u!23 &2075580038
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1625,11 +1679,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.99224967, y: 0.6235636, z: 0.9999998}
-  m_Center: {x: 0.0038752514, y: 0.03688187, z: 0}
+  m_Size: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2098207224
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2020,3 +2074,4 @@ SceneRoots:
   - {fileID: 7537888416808614620}
   - {fileID: 3383431522820603130}
   - {fileID: 88972667}
+  - {fileID: 2012591351}
