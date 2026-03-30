@@ -21,7 +21,7 @@ public class SluggerCharge : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Slugger <= 2)
+        if (Slugger <= 1)
         {
 
             //Memory
