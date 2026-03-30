@@ -3,7 +3,7 @@ using UnityEngine;
 public class SluggerDetectCollisions : MonoBehaviour
 {
     public string TagtoDestroy;
-    private GameManager SluggerCharge;
+    //private GameManager SluggerCharge;
     //Destory Monsters on Collision
     void OnTriggerEnter(Collider other)
     {
@@ -15,7 +15,9 @@ public class SluggerDetectCollisions : MonoBehaviour
         }
         if (other.CompareTag("Respawn"))
         {
-            //Destroy(gameObject);
+            Destroy(gameObject);
+            //GameObject.Find("SluggerCharge").GetComponent<SluggerCharge>().Slugger - 1;
+
         }
 
     }
