@@ -12,6 +12,9 @@ public class SluggerCharge : MonoBehaviour
     public GameObject LeftSlugger;
     public GameObject RightSlugger;
     public GameObject Page;
+
+    public string ProjectileTag;
+    public GameOver playerDead;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -57,6 +60,16 @@ public class SluggerCharge : MonoBehaviour
                 // Drops a Page
                 Instantiate(Page, transform.position, Page.transform.rotation);
                 Fragment++;
+            }
+        }
+
+        //Game over
+        void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag(ProjectileTag))
+            {
+                playerDead.playerDead = 1;
+
             }
         }
     }

@@ -125,20 +125,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Slugger: 0
   Fragment: 0
-  Axe: 0
-  BOMBS: 0
   SluggerPrefabs: []
-  UpSlugger: {fileID: 0}
-  DownSlugger: {fileID: 0}
-  LeftSlugger: {fileID: 0}
-  RightSlugger: {fileID: 0}
-  Page: {fileID: 0}
-  AxeUp: {fileID: 0}
-  AxeDown: {fileID: 0}
-  AxeLeft: {fileID: 0}
-  AxeRight: {fileID: 0}
-  Bomb: {fileID: 0}
-  TagtoDestroy: Clark
+  UpSlugger: {fileID: 8758045984918995327, guid: e754c563702736c40be88bdce136616f, type: 3}
+  DownSlugger: {fileID: 8758045984918995327, guid: e754c563702736c40be88bdce136616f, type: 3}
+  LeftSlugger: {fileID: 8758045984918995327, guid: e754c563702736c40be88bdce136616f, type: 3}
+  RightSlugger: {fileID: 8758045984918995327, guid: e754c563702736c40be88bdce136616f, type: 3}
+  Page: {fileID: 8758045984918995327, guid: e754c563702736c40be88bdce136616f, type: 3}
 --- !u!1 &6146588363010989730
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,6 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454eb6cb83f24534b9a4b288ea943d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AXE: {fileID: 0}
 --- !u!114 &5287219702955642319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,6 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454eb6cb83f24534b9a4b288ea943d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AXE: {fileID: 0}
 --- !u!114 &1328358497039374765
 MonoBehaviour:
   m_ObjectHideFlags: 0

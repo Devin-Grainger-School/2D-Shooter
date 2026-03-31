@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f44874512272e64c93513181601becc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TagtoDestroy: 
+  TagtoDestroy: Clark
 --- !u!114 &8102123720519860059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454eb6cb83f24534b9a4b288ea943d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SluggerCharge: {fileID: 0}
+  AXE: {fileID: 0}
 --- !u!1 &6146588363010989730
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float verticalInput;
     public float speed = 15.0f;
     public float xRange = 20;
+    public Rigidbody rb;
 
     public GameObject projectilePrefab;
 
@@ -45,5 +46,7 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, 8, transform.position.z);
         }
+
+        
     }
 }
