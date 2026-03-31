@@ -4,8 +4,7 @@ public class SluggerDetectCollisions : MonoBehaviour
 {
     public string TagtoDestroy;
     //private GameManager SluggerCharge;
-    //private GameManager SluggerCharge;
-
+    private MenuScrpit Start;
     //Destory Monsters on Collision
     void OnTriggerEnter(Collider other)
     {
